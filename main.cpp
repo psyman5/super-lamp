@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "matrixDisplayFunc.h"
 
 
 int main(){
@@ -34,10 +35,5 @@ int main(){
            rowCounter += 1;
        }
     }
-    for (int i = 0; i< rows ;i++){
-        for(int j = 0; j < columns; j++) {
-        std::cout << matrix[i][j] << " ";
-    }
-        std::cout << "\n";
-        }
+    matrixDisplayFunc(rows,columns)
     }
