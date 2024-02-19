@@ -3,6 +3,6 @@
 
 //matrix display function
 
-int matrixDisplayFunc();
+int matrixDisplayFunc(rows, columns);
 
 #endif
